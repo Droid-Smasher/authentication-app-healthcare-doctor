@@ -69,13 +69,14 @@ To get started with the app, follow these steps:
 
 Be sure to configure the environment variables as shown in the `.env.example` file:
 
+## docker for local testing
+docker run --name mongodb -d -p 27017:27017 mongodb/mongodb-community-server:latest
+
+
 - `PORT`: The port on which the server will listen.
 - `MONGODB_URI`: The URI for connecting to the MongoDB instance.
 - `JWT_SECRET`: A secret key for signing JWT tokens.
 
-## Contributing
-
-Contributions are welcome. Please fork the repository and submit a pull request with your changes or improvements. Ensure that you adhere to the coding standards established in the project and provide tests, if applicable, for new features or fixes.
 
 ## License
 
