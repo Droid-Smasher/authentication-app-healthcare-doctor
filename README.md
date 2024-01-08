@@ -4,11 +4,11 @@ The Authentication App for Healthcare is a Node.js application designed to facil
 
 ## Features
 
-- **User Registration & Login**: Supports the creation of user accounts, using JWT for authentication.
-- **QR Code Generation**: Each patient record is associated with a unique QR code for secure access.
+- **User Registration & Login**: Supports the creation of user accounts, using JWT for authentication. {done}
+- **QR Code Generation**: Each patient record is associated with a unique QR code for secure access. { ToDo,buggy, have to fix}
 - **Role-Based Access Control**: Accommodates multiple user roles with different access levels to patient data.
-- **Audit Trail**: Monitors and logs user activities, providing an overview of patient data access.
-- **Secure Environment**: Enforces security through the use of CORS, Helmet, and secure sessions.
+- **Audit Trail**: Monitors and logs user activities, providing an overview of patient data access. [ToDo]
+- **Secure Environment**: Enforces security through the use of CORS, Helmet, and secure sessions.[ToDo]
 
 ## Tech Stack
 
